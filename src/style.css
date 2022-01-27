@@ -1,0 +1,98 @@
+.App {
+    height: 200px;
+    /* padding-top: 20px; */
+    text-align: center;
+    font-family: sans-serif;
+  }
+  body {
+    background: linear-gradient(-5deg, #033a66, #4561e0);
+    background-repeat : no-repeat  ;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+  }
+   button {
+    /* margin-left: 31em; */
+    float : right;
+    border: none;
+    /* margin: 5px 0px 50px 0px; */
+    margin-right: 0 ;
+    background: linear-gradient(-5deg, #033a50, #14a0aa);
+    padding: 15px;
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: none;
+    border-radius: 10%;
+    color: white;
+  }
+  button:hover {
+    background: rgb(105, 27, 112);
+    color: white;
+  }
+  .App .item_container {
+    margin-top: 50px;
+    margin-left: -0.5em;
+    color: white;
+  }
+  .App .item_data {
+    margin: auto;
+    text-align: center;
+    padding-top: 20px;
+    /* background-color: aqua; */
+    background: linear-gradient(-5deg, #75d3f8, #3cc4ce);
+    color: black;
+    height: 400px;
+    font-size: 15px;
+    margin-bottom: 50px;
+    border-radius: 25px;
+    width: 500px;
+    font-weight: bold;
+    align-content: center;
+  }
+  .App .item_data:hover {
+    border: 3px solid white;
+    outline-style: outset;
+    outline-color: white;
+  }
+  .App .item_data img {
+    border-radius: 50%;
+    object-fit: cover;
+    height: 140px;
+    width: 140px;
+  }
+
+  .Company {
+    height: 100%;
+    width: 60%;
+    float: left;
+    width: 90%;
+    font-family: Pacifico;
+    color: white;
+    margin-left: 50px;
+    text-shadow: 2px 2px 3px rgb(165, 151, 151);
+    letter-spacing: 2px;
+  }
+
+  .row {
+    display: flex;
+    height: 60px;
+    padding: 10px 50px 0px 30px;
+}
+.box {
+    background: linear-gradient(-5deg, #1ae5ec, #8ceed9);
+    /* background-color: rgb(169, 247, 244); */
+}
+.col2 {
+    height: 100%;
+    float: right;
+    width: 30%;
+    margin-right: 0px;
+}
+
+h1 {
+    margin-top: 0px;
+    margin-bottom: 10px;
+    padding-top: 0px;
+    font-size: 50px;
+    color: black;
+}
